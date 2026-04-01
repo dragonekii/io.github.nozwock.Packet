@@ -16,6 +16,6 @@ jobs:
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6
         with:
           bundle: Packet.flatpak
-          # Point this to the .yml or .json in the root of the repo
+          branch: stable
           manifest-path: io.github.nozwock.Packet.yml
           cache: true
